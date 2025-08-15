@@ -11,13 +11,11 @@ body {
 }
 
 
-/* Dark mode */
 body.dark {
     background-color: #121212;
     color: #f1f1f1;
 }
 
-/* Header styling */
 header {
     padding: 10px;
     background-color: transparent;
@@ -36,7 +34,6 @@ body.dark header {
     gap: 10px;
 }
 
-/* Task list styling */
 main {
     flex: 1;
     overflow-y: auto;
@@ -66,7 +63,6 @@ body.dark li {
     flex: 1;
 }
 
-/* Buttons */
 button {
     cursor: pointer;
     padding: 5px 10px;
@@ -83,7 +79,6 @@ button {
     background-color: #ff1a1a;
 }
 
-/* Footer */
 footer {
     display: flex;
     gap: 8px;
